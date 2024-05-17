@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 class IconDetails extends StatelessWidget {
-  const IconDetails({super.key, 
-  required this.icon, 
-  required this.label,
+  const IconDetails({
+    super.key,
+    required this.icon,
+    required this.label,
   });
 
   final IconData icon;
@@ -23,7 +24,10 @@ class IconDetails extends StatelessWidget {
         ),
         Text(
           label,
-          style: const TextStyle(fontSize: 18.0, color: Color(0xFF8D8E98)),
+          style: const TextStyle(
+            fontSize: 18.0,
+            color: Color(0xFF8D8E98),
+          ),
         ),
       ],
     );
